@@ -1,0 +1,195 @@
+    .homepage-first {
+        background-color: rgba(247, 247, 248, 1);
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-pagecontent {
+        height: 91.9vh;
+        flex: 1 1 auto;
+    }
+
+    .btn-login-signup {
+        background-color: rgba(16, 163, 127, 1) !important;
+        color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .btn-login-signup:hover {
+        background-color: rgba(26, 127, 100, 1) !important;
+    }
+
+    .text-xs {
+        font-size: .75rem;
+        line-height: 1rem;
+        bottom: 0;
+    }
+
+    .text-gray-500 {
+        color: rgba(142, 142, 160, 1);
+    }
+
+    .text-gray-600 {
+        color: rgba(86, 88, 105, 1);
+    }
+
+    /* log in page */
+    .log-in-wraper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100%;
+    }
+
+    .header-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px 0 0;
+    }
+
+    .login-content {
+        padding: 80px;
+        /* border: 1px solid; */
+    }
+
+    .logincontent-wraper {
+        max-width: 400px;
+        /* border: 1px solid yellow; */
+    }
+
+    .welcome-back {
+        padding: 40px 40px 24px;
+    }
+
+    .welcome-back-title {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 32px;
+        color: #2d333a;
+    }
+
+    .form-content {
+        padding: 0 40px 40px;
+        /* border: 1px solid purple; */
+    }
+
+    .input-error-message {
+        margin-top: 4px;
+        /* margin-bottom: 12px; */
+        display: flex;
+        /* font-size: 12px; */
+        line-height: 1.4;
+        text-align: left;
+        color: #d00e17;
+    }
+
+    .form-floating>.frmctrol-custome,
+    .form-floating>.form-select {
+        height: calc(3.13rem + 2px) !important;
+        border: 1px solid #10a37f !important;
+    }
+
+    .form-floating>.frmctrol-custome:focus~label,
+    .form-floating>.form-control:not(:placeholder-shown)~label,
+    .form-floating>.form-select~label {
+        opacity: 1 !important;
+        transform: scale(1) translateY(-0.9rem) translateX(0.15rem) !important;
+        max-width: fit-content !important;
+        background-color: #fff !important;
+        height: auto !important;
+        padding: 0rem 0.75rem !important;
+    }
+
+    .form-floating>.label-float-custome {
+        height: auto !important;
+        padding: .8rem 0.75rem !important;
+    }
+
+    .form-floating>.frmctrol-custome:focus,
+    .form-floating>.frmctrol-custome:not(:placeholder-shown) {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .btn-continue {
+        /* margin-top: 24px; */
+        background-color: #10a37f;
+        color: #ffffff;
+        width: 100%;
+        padding: 14px 16px;
+        border-radius: 3px;
+    }
+
+    .dont-have-ac {
+        margin: 16px 0 0;
+        color: #2d333a;
+    }
+
+    .signup-text {
+        padding: 4px;
+        color: #10a37f;
+    }
+
+    .or-text-leftrightline {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-transform: uppercase;
+        border: none;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 0;
+        padding: 24px 0 0;
+        align-items: center;
+    }
+
+    .or-text-leftrightline:after,
+    .or-text-leftrightline:before {
+        content: "";
+        border-bottom: 1px solid #c2c8d0;
+        flex: 1 0 auto;
+        height: 0.5em;
+        align-items: center;
+        margin: 0;
+    }
+
+    .or-text-leftrightline .or-text {
+        text-align: center;
+        flex: 0.2 0 auto;
+        margin: 0;
+    }
+
+    .btn-social {
+        padding: .75rem 1rem;
+        background: #fff;
+        border: 1px solid #c2c8d0;
+        width: 100%;
+        margin-bottom: 8px;
+        text-align: left;
+        color: #2d333a;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-width {
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+
+    /* sign up */
+    .create-your-acparagraph {
+        color: #2d333a;
+        font-size: 14px;
+    }
+
+    @media only screen and (max-width: 575px) {
+        .login-content {
+            padding: 10px;
+        }
+
+        .logincontent-wraper {
+            max-width: 500px;
+        }
+    }
