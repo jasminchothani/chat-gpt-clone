@@ -193,3 +193,10 @@
             max-width: 500px;
         }
     }
+
+    @media only screen and (max-width: 395px) {
+        .form-content {
+            padding: 0 15px 15px;
+            /* border: 1px solid purple; */
+        }
+    }
